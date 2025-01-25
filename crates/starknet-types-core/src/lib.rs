@@ -5,3 +5,6 @@ pub mod curve;
 pub mod hash;
 
 pub mod felt;
+
+#[cfg(feature = "u256")]
+pub mod u256;
